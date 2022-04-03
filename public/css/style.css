@@ -1,0 +1,94 @@
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #9FA2B4 !important;
+}
+
+.text-light {
+    color: #9FA2B4 !important;
+}
+
+#blue-indicator {
+    height: 3px;
+    width: 30px;
+    background-color: blue;
+    display: block;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+#lightgray-indicator {
+    height: 3px;
+    width: 30px;
+    background-color: lightgray;
+    display: block;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.font-date {
+    font-size: 12px;
+}
+
+.body-bg-color {
+    background-color: #F7F8FC;
+}
+
+.special-line-height {
+    line-height: 50px;
+}
+
+.bg-special-dark {
+    background-color: #363740;
+}
+
+#btn-add-more {
+    background-color: #F0F1F7;
+    color: #9FA2B4;
+    border-radius: 20px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+#btn-add-more span {
+    display: block;
+    margin-top: -8px;
+    margin-left: -5px;
+}
+
+.border-light {
+    border-color: rgb(235, 235, 235) !important;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #212529;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.closebtn {
+    color: #818181;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
